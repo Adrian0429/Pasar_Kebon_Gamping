@@ -80,7 +80,7 @@ const page = () => {
         Pasar Kebon Empring
       </header>
       <div
-        className="hscreen bg-contain w-full flex justify-center items-center"
+        className="hscreen bg-cover w-full flex justify-center items-center"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(${img.src})`,
         }}
