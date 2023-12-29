@@ -24,6 +24,11 @@ export default function Home() {
         className={`sticky h-[5vh] top-0 flex items-center px-10 text-lg ${
           scrolled ? "bg-gray-700 text-white" : ""
         }`}
+        style={{
+          backgroundImage: `url(${banner.src})`,
+          width: "100%",
+          height: "100%",
+        }}
       >
         Pasar Kebon Empring
       </div>
