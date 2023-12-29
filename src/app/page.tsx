@@ -120,7 +120,7 @@ const page = () => {
         transition={{ duration: 1.5, delay: 0.25 }}
         whileInView={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="hscreen border flex md:justify-start px-5 md:px-20 items-center bg-center bg-cover"
+        className="hscreen flex md:justify-start px-5 md:px-20 items-center bg-center bg-cover"
         style={{
           backgroundImage: `url(${bamboo.src})`,
         }}
@@ -195,7 +195,7 @@ const page = () => {
         transition={{ duration: 1.5, delay: 0.5 }}
         whileInView={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="hscreen border flex md:justify-end px-5 md:px-20 items-center bg-center bg-cover"
+        className="hscreen flex md:justify-end px-5 md:px-20 items-center bg-center bg-cover"
         style={{
           backgroundImage: `url(${foods.src})`,
         }}
@@ -243,12 +243,10 @@ const page = () => {
             width={600}
             className="w-full h-[75%] bg-cover"
           />
-          <p className="hidden md:block text-center text-xs border py-2">
+          <p className="hidden md:block text-center text-xs py-2">
             {item.time}
           </p>
-          <p className="text-sm md:text-lg border py-5 text-justify">
-            {item.konten}
-          </p>
+          <p className="text-sm md:text-lg py-5 text-justify">{item.konten}</p>
         </div>
       ))}
 
