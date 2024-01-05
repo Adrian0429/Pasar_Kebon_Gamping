@@ -96,6 +96,61 @@ const page = () => {
         </div>
       </div>
 
+      <div className="md:px-[8rem] my-10 px-5 flex flex-col md:flex-row">
+        <div className="md:w-[35%]">
+          <Image src={"/pasarKiri.png"} alt="pasar" height={500} width={500} />
+        </div>
+        <div className="md:w-[65%] flex flex-col px-10">
+          <h3 className="w-full text-blue-500 text-3xl pt-5 md:pt-0 md:text-5xl font-light pb-10 ">
+            Wisata Sungai dengan pemandangan bambu yang menyejukkan
+          </h3>
+          <p className="text-xl font-light">
+            Pasar Kebon Empring berada di dusun Bintaro wetan RT 05 desa
+            Srimulyo kecamatan Piyungan kabupaten Bantuk di jalan Jogja Wonosari
+            KM 12. Lokasi ini tepat berada di bantaran sungai Gawe
+          </p>
+        </div>
+      </div>
+
+      <div className="font-semibold text-xl text-center py-10 mt-5">
+        Keunggulan Pasar Kebon Empring
+      </div>
+
+      <div className="grid md:grid-cols-3">
+        <div className="flex flex-col px-5 text-center my-5">
+          <Image src={"/media.png"} alt="media" height={500} width={500} />
+          <h3 className="w-full text-blue-500 text-3xl pt-5 md:pt-0 md:text-3xl font-light my-5 ">
+            Jembatan Warna
+          </h3>
+          <p className="text-lg font-light">
+            Tempat wisata ini menghadirkan sensasi menjelajar melewati jembatan
+            sepanjang 1 KM yang penuh dengan warna yang menarik.
+          </p>
+        </div>
+
+        <div className="flex flex-col px-5 text-center my-5">
+          <Image src={"/media2.png"} alt="media" height={500} width={500} />
+          <h3 className="w-full text-blue-500 text-3xl pt-5 md:pt-0 md:text-3xl font-light my-5 ">
+            Panorama Fotogenik
+          </h3>
+          <p className="text-lg font-light">
+            Terdapat beberapa spot foto yang terbuat dari seni bambu,
+            menghasilkan dokumentasi wisata yang instagrammable.
+          </p>
+        </div>
+
+        <div className="flex flex-col px-5 text-center my-5">
+          <Image src={"/media3.png"} alt="media" height={500} width={500} />
+          <h3 className="w-full text-blue-500 text-3xl pt-5 md:pt-0 md:text-3xl font-light my-5 ">
+            Kuliner Tradisional
+          </h3>
+          <p className="text-lg font-light">
+            Tersedia makanan tradisional yang sehat seperti sego wader, sego
+            wiwit, serabi kocor, dan dawet batok.
+          </p>
+        </div>
+      </div>
+
       <div className="hscreen flex items-center bg-section1">
         <div className="w-[90%] md:w-[60%] mx-auto text-center">
           <h1 className="text-3xl font-bold my-5">Tentang</h1>
@@ -263,61 +318,6 @@ const page = () => {
             </p>
           </div>
         ))}
-      </div>
-
-      <div className="md:px-[8rem] my-10 px-5 flex flex-col md:flex-row">
-        <div className="md:w-[35%]">
-          <Image src={"/pasarKiri.png"} alt="pasar" height={500} width={500} />
-        </div>
-        <div className="md:w-[65%] flex flex-col px-10">
-          <h3 className="w-full text-blue-500 text-3xl pt-5 md:pt-0 md:text-5xl font-light pb-10 ">
-            Wisata Sungai dengan pemandangan bambu yang menyejukkan
-          </h3>
-          <p className="text-xl font-light">
-            Pasar Kebon Empring berada di dusun Bintaro wetan RT 05 desa
-            Srimulyo kecamatan Piyungan kabupaten Bantuk di jalan Jogja Wonosari
-            KM 12. Lokasi ini tepat berada di bantaran sungai Gawe
-          </p>
-        </div>
-      </div>
-
-      <div className="font-semibold text-xl text-center py-10 mt-5">
-        Keunggulan Pasar Kebon Empring
-      </div>
-
-      <div className="grid md:grid-cols-3">
-        <div className="flex flex-col px-5 text-center my-5">
-          <Image src={"/media.png"} alt="media" height={500} width={500} />
-          <h3 className="w-full text-blue-500 text-3xl pt-5 md:pt-0 md:text-3xl font-light my-5 ">
-            Jembatan Warna
-          </h3>
-          <p className="text-lg font-light">
-            Tempat wisata ini menghadirkan sensasi menjelajar melewati jembatan
-            sepanjang 1 KM yang penuh dengan warna yang menarik.
-          </p>
-        </div>
-
-        <div className="flex flex-col px-5 text-center my-5">
-          <Image src={"/media2.png"} alt="media" height={500} width={500} />
-          <h3 className="w-full text-blue-500 text-3xl pt-5 md:pt-0 md:text-3xl font-light my-5 ">
-            Panorama Fotogenik
-          </h3>
-          <p className="text-lg font-light">
-            Terdapat beberapa spot foto yang terbuat dari seni bambu,
-            menghasilkan dokumentasi wisata yang instagrammable.
-          </p>
-        </div>
-
-        <div className="flex flex-col px-5 text-center my-5">
-          <Image src={"/media3.png"} alt="media" height={500} width={500} />
-          <h3 className="w-full text-blue-500 text-3xl pt-5 md:pt-0 md:text-3xl font-light my-5 ">
-            Kuliner Tradisional
-          </h3>
-          <p className="text-lg font-light">
-            Tersedia makanan tradisional yang sehat seperti sego wader, sego
-            wiwit, serabi kocor, dan dawet batok.
-          </p>
-        </div>
       </div>
 
       <footer>
